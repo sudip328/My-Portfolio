@@ -15,7 +15,7 @@ A modern, responsive portfolio website for Materials Science Engineering student
 
 ## 🚀 Live Demo
 
-Visit the live website: [https://sudip328.github.io/portfolio](https://sudip328.github.io/portfolio)
+Visit the live website: [[https://sudip328.github.io/portfolio](https://sudip328.github.io/portfolio)](https://sudip328.github.io/My-Portfolio/)
 
 ## 📂 Project Structure
 
