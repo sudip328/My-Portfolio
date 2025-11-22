@@ -1,6 +1,6 @@
 # Sudip Dey Dipta - Portfolio Website
 
-https://amrito20.github.io/Sudip-Dey-Dipta-Portfolio/
+https://sudip328.github.io/My-Portfolio/
 
 A modern, responsive portfolio website for Materials Science Engineering student Sudip Dey Dipta, showcasing research, achievements, and professional experience.
 
@@ -15,7 +15,7 @@ A modern, responsive portfolio website for Materials Science Engineering student
 
 ## 🚀 Live Demo
 
-Visit the live website: [[https://sudip328.github.io/portfolio](https://sudip328.github.io/portfolio)](https://sudip328.github.io/My-Portfolio/)
+Visit the live website: [(https://sudip328.github.io/My-Portfolio/)]
 
 ## 📂 Project Structure
 
