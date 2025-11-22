@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudip Dey Dipta - Materials Science Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-outline"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home">sudip</a>
+                </div>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#about" class="nav-link">About Me</a></li>
+                    <li><a href="#research" class="nav-link">Research</a></li>
+                    <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                    <li><a href="#timeline-section" class="nav-link">Experience</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li>
+                        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Lightweight CSS Background Animation -->
+        <div class="background-animation">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <div class="greeting" data-aos="fade-up">
+                        <span class="greeting-text">I'm Sudip Dey Dipta</span>
+                    </div>
+                    
+                    <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">
+                        <span class="typed-text">Research Enthusiast</span>
+                    </h1>
+                    
+                    <p class="hero-description" data-aos="fade-up" data-aos-delay="400">
+                        A passionate Materials Science Engineer dedicated to advancing research in perovskite solar cells, computational materials science, and sustainable energy solutions.
+                    </p>
+                    
+                    <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
+                        <a href="#about" class="hero-btn btn-primary">
+                            <i class="fas fa-user"></i>
+                            About Me
+                        </a>
+                        <a href="SUDIP DEY DIPTA CV.pdf" download class="hero-btn btn-secondary">
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </a>
+                    </div>
+                    
+                    <div class="social-links-hero">
+                        <a href="https://www.linkedin.com/in/sudip-dey-dipta-650aa0204" target="_blank" class="social-link linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/sudip328" target="_blank" class="social-link github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.facebook.com/share/16MBTFSyQw/" target="_blank" class="social-link facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.fiverr.com/sudip_328" target="_blank" class="social-link fiverr">
+                            <svg width="20" height="20" viewBox="0 0 400 400" fill="currentColor">
+                                <path d="M97.5 105.75C97.5 82.3478 116.348 63.5 139.75 63.5C163.152 63.5 182 82.3478 182 105.75C182 129.152 163.152 147.5 139.75 147.5C116.348 147.5 97.5 129.152 97.5 105.75Z M55 336.5H224.5V183H55V336.5Z M293.5 183V336.5H345V217.75C345 195.848 326.652 178 304.75 178C282.848 178 264.5 195.848 264.5 217.75V336.5H293.5Z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="image-container" id="heroImage">
+                        <!-- Image will load or show placeholder -->
+                        <img src="Sudip%20photo.jpg" alt="Sudip Dey Dipta" id="profileImage" 
+                             onload="this.style.display='block'" 
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display:none; justify-content:center; align-items:center; width:100%; height:100%; background: linear-gradient(135deg, var(--primary-purple), var(--accent-green)); border-radius:50%;">
+                            <i class="fas fa-user-circle" style="font-size: 8rem; color: rgba(255,255,255,0.8);"></i>
+                        </div>
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-down">
+                <span>Scroll Down</span>
+                <i class="fas fa-arrow-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>About Me</h2>
+                <p>Get to know more about my background, education, and journey</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="about-info">
+                        <h3>Hello! I'm Sudip Dey Dipta</h3>
+                        <p>I am a dedicated Materials Science Engineering student at Khulna University of Engineering and Technology, passionate about advancing research in sustainable materials and renewable energy technologies.</p>
+                        
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div>
+                                    <h4>Education</h4>
+                                    <p>Bachelor of Science in Materials Science and Engineering<br>
+                                    <strong>Khulna University of Engineering and Technology</strong><br>
+                                    CGPA: 3.54/4.00</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>North Kattali, Akbarshah<br>Chittagong, Bangladesh</p>
+                                </div>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>sudipdeydipta8@gmail.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <p>+8801314309521</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p class="about-description">
+                            My journey in materials science has been driven by a passion for innovation and sustainability. 
+                            I've actively engaged in research, leadership, and community service, building a strong foundation 
+                            in both technical expertise and soft skills. Through various leadership positions and research 
+                            projects, I've developed a comprehensive understanding of materials science applications in 
+                            renewable energy and environmental sustainability.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="about-image" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="about-image-container" id="aboutImageContainer">
+                        <img src="Sudip%20photo.jpg" alt="Sudip Dey Dipta" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;" 
+                             onload="this.style.display='block'" 
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display:none; justify-content:center; align-items:center; width:100%; height:100%; background: linear-gradient(135deg, var(--primary-purple), var(--accent-green)); border-radius:50%;">
+                            <i class="fas fa-user-circle" style="font-size: 4rem; color: rgba(255,255,255,0.8);"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="research-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Research & Publications</h2>
+                <p>My research interests and published work in materials science</p>
+            </div>
+            
+            <div class="research-content">
+                <div class="research-interests" data-aos="fade-up" data-aos-duration="800">
+                    <h3>Research Interests</h3>
+                    <div class="research-categories">
+                        <div class="research-category">
+                            <div class="category-icon">
+                                <i class="fas fa-atom"></i>
+                            </div>
+                            <h4>Scientific Approaches</h4>
+                            <ul>
+                                <li>Perovskite Materials</li>
+                                <li>Semiconductor Physics</li>
+                                <li>Solar Cell Technology</li>
+                                <li>Nanotechnology</li>
+                                <li>Computational Materials Science</li>
+                                <li>Atomistic Simulation</li>
+                            </ul>
+                        </div>
+                        <div class="research-category">
+                            <div class="category-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h4>Techniques and Tools</h4>
+                            <ul>
+                                <li>Molecular Dynamics (MD) Simulation</li>
+                                <li>Density Functional Theory (DFT)</li>
+                                <li>SCAPS-1D Simulation</li>
+                                <li>Materials Studio</li>
+                                <li>LAMMPS</li>
+                                <li>VESTA</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="publications" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                    <h3>Publications</h3>
+                    <div class="publications-grid">
+                        <div class="publication-card">
+                            <div class="publication-type">
+                                <i class="fas fa-journal-whills"></i>
+                                <span>Journal Article</span>
+                            </div>
+                            <h4>Influence of heat treatment and water absorption on mechanical properties of cotton-glass fiber reinforced epoxy hybrid composites</h4>
+                            <p class="publication-authors"><strong>Silvina Siddika Shifa, Md Mehedi Hasan Kanok, Mohammad Salman Haque, Tipu Sultan, Kanij Fatema Pritha, Mubasshira, Maruf Al Yeamin, Sudip Dey Dipta</strong></p>
+                            <p class="publication-journal"><em>Hybrid Advances</em>, Volume 5, 2024, 100181</p>
+                            <p class="publication-description">An eco-friendly approach for industrial materials focusing on sustainable composite development.</p>
+                            <div class="publication-meta">
+                                <span class="publication-year">2024</span>
+                                <span class="publication-issn">ISSN 2773-207X</span>
+                           </div>
+						  </div>
+                           <div class="publication-card">
+                           <div class="publication-type">
+                           <i class="fas fa-book-open"></i> 
+                           <span>Journal Article</span>
+                           </div>
+                           <h4>A Comprehensive Review of Sustainable and Green Additive Manufacturing: Technologies, Practices, and Future Directions</h4>
+                           <p class="publication-authors"><strong>Sudip Dey Dipta, Md. Mahbubur Rahman, Md. Jonaet Ansari, Md Nizam Uddin</strong></p>
+                           <p class="publication-journal"><em>Journal of Manufacturing and Materials Processing (JMMP)</em></p>
+                           <p class="publication-description">
+                           The review concludes with future directions and research opportunities to enhance the environmental performance of AM technologies, ultimately contributing to a more sustainable manufacturing landscape.
+                           </p>
+                           <div class="publication-meta">
+                           <span class="publication-year">2025</span>
+                           </div>
+                          </div>
+                        </div>
+						<p> </p>
+                      <div class="publication-card" style="margin-top: 30px;">
+                            <div class="publication-type">
+                                <i class="fas fa-users"></i>
+                                <span>Conference Paper</span>
+                            </div>							
+                            <h4>Numerical Study of Rb and K based Lead Free Double Perovskite Solar Cell Using SCAPS-1D</h4>
+                            <p class="publication-authors"><strong>Sudip Dey Dipta, Wasif Abu Dujana, Jesia Alam Jui, Riyad Kawsar</strong></p>
+                            <p class="publication-journal">ICMEAS-2025</p>
+                            <p class="publication-description">Investigation of lead-free perovskite materials for sustainable solar cell applications.</p>
+                            <div class="publication-meta">
+                                <span class="publication-year">2025</span>
+                                <span class="publication-status">Accepted</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Key Achievements</h2>
+                <p>Recognition and accomplishments in competitions and academic events</p>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="achievement-icon trophy">
+                        <i class="fas fa-trophy"></i>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <div class="achievement-rank">1st Runner Up</div>
+                    <h3>Calibration 1.0</h3>
+                    <p>Poster presentation organized by Department of Mechatronics Engineering, KUET</p>
+                    <div class="achievement-glow"></div>
+                </div>
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="achievement-icon medal">
+                        <i class="fas fa-medal"></i>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <div class="achievement-rank">Finalist</div>
+                    <h3>BizBash 2.0</h3>
+                    <p>Business competition organized by KUET Career Club</p>
+                    <div class="achievement-glow"></div>
+                </div>
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="achievement-icon award">
+                        <i class="fas fa-award"></i>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <div class="achievement-rank">Semi Finalist</div>
+                    <h3>CaseSpeces 1.0 & 2.0</h3>
+                    <p>Case competition organized by Spectrum</p>
+                    <div class="achievement-glow"></div>
+                </div>
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="achievement-icon debate">
+                        <i class="fas fa-microphone"></i>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <div class="achievement-rank">Semi Finalist</div>
+                    <h3>JUSTDC Fundraiser Debate</h3>
+                    <p>4th JUSTDC Fundraiser Debate Tournament 2023</p>
+                    <div class="achievement-glow"></div>
+                </div>
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="achievement-icon championship">
+                        <i class="fas fa-globe-asia"></i>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <div class="achievement-rank">Semi Finalist</div>
+                    <h3>GRIPP DUDS Championship</h3>
+                    <p>South Asian Debating Championship 2022</p>
+                    <div class="achievement-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section id="timeline-section" class="timeline-section">
+        <div class="container">
+            <div class="timeline-header" data-aos="fade-up">
+                <h2>Professional Experience</h2>
+                <p>Leadership roles and professional development throughout my academic journey</p>
+            </div>
+            
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+                
+                <div class="experience-item" data-aos="fade-right" data-aos-delay="100">
+                    <div class="experience-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3>KUET Career Club (KCC)</h3>
+                            <span class="position">Vice President</span>
+                            <span class="duration">2024-2025</span>
+                        </div>
+                        <p>Organized A National IDEA Case Competition "BizBattle" and seminars on higher studies guidelines. Successfully managed sponsorship and engaged 1000+ participants in various events.</p>
+                        <div class="experience-tags">
+                            <span class="tag">Leadership</span>
+                            <span class="tag">Event Management</span>
+                            <span class="tag">Sponsorship</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item" data-aos="fade-left" data-aos-delay="200">
+                    <div class="experience-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3>KUET Debating Society (KDS)</h3>
+                            <span class="position">Vice President</span>
+                            <span class="duration">2024-2025</span>
+                        </div>
+                        <p>Organized 10+ on-campus debating competitions and participated in national championships. Developed critical thinking, analytical skills, and leadership through competitive debating.</p>
+                        <div class="experience-tags">
+                            <span class="tag">Public Speaking</span>
+                            <span class="tag">Critical Thinking</span>
+                            <span class="tag">Organization</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item" data-aos="fade-right" data-aos-delay="300">
+                    <div class="experience-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3>KUET Sanatana Society</h3>
+                            <span class="position">Vice President</span>
+                            <span class="duration">2024-2025</span>
+                        </div>
+                        <p>Organized religious festivals and cultural events on campus, promoting cultural diversity and community engagement.</p>
+                        <div class="experience-tags">
+                            <span class="tag">Cultural Events</span>
+                            <span class="tag">Community Service</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item" data-aos="fade-left" data-aos-delay="400">
+                    <div class="experience-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3>Chittagong Association of KUET</h3>
+                            <span class="position">Vice President</span>
+                            <span class="duration">2024-2025</span>
+                        </div>
+                        <p>Built a supportive community for students from Chittagong, helping them maintain cultural connections and providing a home-like environment on campus.</p>
+                        <div class="experience-tags">
+                            <span class="tag">Community Building</span>
+                            <span class="tag">Student Support</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item" data-aos="fade-right" data-aos-delay="500">
+                    <div class="experience-icon">
+                        <i class="fas fa-theater-masks"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3>Fazlul Haque Hall Committee</h3>
+                            <span class="position">Cultural Secretary</span>
+                            <span class="duration">2024-2025</span>
+                        </div>
+                        <p>Organized annual cultural programs and managed hall dining operations. Fostered a peaceful and study-friendly environment for hall residents.</p>
+                        <div class="experience-tags">
+                            <span class="tag">Cultural Programs</span>
+                            <span class="tag">Management</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item" data-aos="fade-left" data-aos-delay="600">
+                    <div class="experience-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3>KUET Photographic Society (KUETPS)</h3>
+                            <span class="position">Head of External Affairs</span>
+                            <span class="duration">2024-2025</span>
+                        </div>
+                        <p>Captured award-winning photographs and managed external relations. Won multiple prizes for photography work, combining technical skills with artistic vision.</p>
+                        <div class="experience-tags">
+                            <span class="tag">Photography</span>
+                            <span class="tag">External Affairs</span>
+                            <span class="tag">Creative Direction</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item" data-aos="fade-right" data-aos-delay="700">
+                    <div class="experience-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3>MetaMaterials Club of KUET (MMCK)</h3>
+                            <span class="position">Head of Media</span>
+                            <span class="duration">2024-2025</span>
+                        </div>
+                        <p>Led media team for club publications and organized international event "MSE Cube Rush". Conducted seminars related to materials science and engineering.</p>
+                        <div class="experience-tags">
+                            <span class="tag">Media Management</span>
+                            <span class="tag">International Events</span>
+                            <span class="tag">Technical Seminars</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Skills & Technologies</h2>
+                <p>Technical skills and tools I work with</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming</h3>
+                    <p>Building computational solutions and simulations for materials research.</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">MATLAB</span>
+                        <span class="skill-tag">C++</span>
+                    </div>
+                    <div class="skill-hover-effect"></div>
+                </div>
+                
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3>Materials Simulation</h3>
+                    <p>Advanced tools for materials modeling and simulation.</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">VESTA</span>
+                        <span class="skill-tag">Materials Studio</span>
+                        <span class="skill-tag">LAMMPS</span>
+                        <span class="skill-tag">OVITO</span>
+                        <span class="skill-tag">SCAPS</span>
+                    </div>
+                    <div class="skill-hover-effect"></div>
+                </div>
+                
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3>Design & CAD</h3>
+                    <p>Engineering design and computer-aided design tools.</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">SOLIDWORKS</span>
+                        <span class="skill-tag">AutoCAD</span>
+                        <span class="skill-tag">CES Edupack</span>
+                    </div>
+                    <div class="skill-hover-effect"></div>
+                </div>
+                
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Office & Analysis</h3>
+                    <p>Documentation, presentation, and data analysis tools.</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Microsoft Word</span>
+                        <span class="skill-tag">PowerPoint</span>
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">LaTeX</span>
+                    </div>
+                    <div class="skill-hover-effect"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content" data-aos="fade-up">
+                <h2>Let's Connect!</h2>
+                <p>Got a question, proposal, or just want to say hello? I'd love to hear from you.</p>
+                
+                <div class="contact-info-grid">
+                    <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email</h4>
+                        <a href="mailto:sudipdeydipta8@gmail.com">sudipdeydipta8@gmail.com</a>
+                    </div>
+                    
+                    <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4>Phone</h4>
+                        <a href="tel:+8801314309521">+8801314309521</a>
+                    </div>
+                    
+                    <div class="contact-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4>Location</h4>
+                        <span>North Kattali, Akbarshah<br>Chittagong, Bangladesh</span>
+                    </div>
+                </div>
+                
+                <div class="contact-social-section" data-aos="fade-left" data-aos-delay="300">
+                    <div class="social-links-grid">
+                        <h3>Connect With Me</h3>
+                        <div class="social-contact-cards">
+                            <a href="https://www.linkedin.com/in/sudip-dey-dipta-650aa0204" target="_blank" class="social-contact-card linkedin">
+                                <div class="social-icon-wrapper">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </div>
+                                <div class="social-info">
+                                    <h4>LinkedIn</h4>
+                                    <span>Professional Network</span>
+                                </div>
+                                <div class="social-arrow"><i class="fas fa-arrow-right"></i></div>
+                            </a>
+                            
+                            <a href="https://github.com/sudip328" target="_blank" class="social-contact-card github">
+                                <div class="social-icon-wrapper">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="social-info">
+                                    <h4>GitHub</h4>
+                                    <span>Code Repository</span>
+                                </div>
+                                <div class="social-arrow"><i class="fas fa-arrow-right"></i></div>
+                            </a>
+                            
+                            <a href="https://www.facebook.com/share/16MBTFSyQw/" target="_blank" class="social-contact-card facebook">
+                                <div class="social-icon-wrapper">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                <div class="social-info">
+                                    <h4>Facebook</h4>
+                                    <span>Social Updates</span>
+                                </div>
+                                <div class="social-arrow"><i class="fas fa-arrow-right"></i></div>
+                            </a>
+                            
+                            <a href="https://www.fiverr.com/sudip_328" target="_blank" class="social-contact-card fiverr">
+                                <div class="social-icon-wrapper">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M23.004 15.588a.995.995 0 0 1-.995.995H9.995a.995.995 0 0 1-.995-.995v-3.343a.995.995 0 0 1 .995-.995h12.014a.995.995 0 0 1 .995.995v3.343zm-6.996-3.343h-4.007v1.354h4.007v-1.354zm7.491-5.029a.995.995 0 0 1-.995.995H13.99a.995.995 0 0 1-.995-.995V4.868a.995.995 0 0 1 .995-.995h8.514a.995.995 0 0 1 .995.995v2.348zm-3.996-2.348h-3.522v.698h3.522v-.698zM8.999 21.125a.995.995 0 0 1-.995.995H.995A.995.995 0 0 1 0 21.125v-8.784a.995.995 0 0 1 .995-.995h7.009a.995.995 0 0 1 .995.995v8.784zm-2.995-8.784H2.99v6.794h3.014v-6.794z"/>
+                                    </svg>
+                                </div>
+                                <div class="social-info">
+                                    <h4>Fiverr</h4>
+                                    <span>Freelance Services</span>
+                                </div>
+                                <div class="social-arrow"><i class="fas fa-arrow-right"></i></div>
+                            </a>
+                        </div>
+                        
+                        <div class="cv-download-card">
+                            <div class="cv-icon">
+                                <i class="fas fa-file-download"></i>
+                            </div>
+                            <div class="cv-info">
+                                <h4>Download CV</h4>
+                                <span>Get my latest resume</span>
+                            </div>
+                            <a href="Resume.pdf" download class="cv-btn-modern">
+                                <i class="fas fa-download"></i>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Sudip Dey Dipta. Built with passion for materials science and innovation.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#research">Research</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script>
+        // Lightweight theme toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeToggle = document.getElementById('themeToggle');
+            const hamburger = document.getElementById('hamburger');
+            const navMenu = document.getElementById('navMenu');
+            const backToTop = document.getElementById('backToTop');
+            
+            // Theme toggle
+            let currentTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            
+            themeToggle.addEventListener('click', function() {
+                currentTheme = currentTheme === 'light' ? 'dark' : 'light';
+                document.documentElement.setAttribute('data-theme', currentTheme);
+                localStorage.setItem('theme', currentTheme);
+                
+                const icon = themeToggle.querySelector('i');
+                icon.className = currentTheme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+            });
+            
+            // Mobile navigation
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('active');
+                hamburger.classList.toggle('active');
+            });
+            
+            // Close menu on link click
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', function() {
+                    navMenu.classList.remove('active');
+                    hamburger.classList.remove('active');
+                });
+            });
+            
+            // Smooth scrolling
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Back to top button
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 300) {
+                    backToTop.classList.add('visible');
+                } else {
+                    backToTop.classList.remove('visible');
+                }
+            });
+            
+            if (backToTop) {
+                backToTop.addEventListener('click', function() {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            }
+            
+            // Lightweight cursor effect (only on desktop)
+            if (window.innerWidth > 1024) {
+                const cursor = document.querySelector('.custom-cursor');
+                const cursorDot = document.querySelector('.cursor-dot');
+                const cursorOutline = document.querySelector('.cursor-outline');
+                
+                if (cursor) {
+                    document.addEventListener('mousemove', function(e) {
+                        cursorDot.style.left = e.clientX + 'px';
+                        cursorDot.style.top = e.clientY + 'px';
+                        cursorOutline.style.left = e.clientX + 'px';
+                        cursorOutline.style.top = e.clientY + 'px';
+                    });
+                    
+                    document.querySelectorAll('a, button, .hero-btn, .social-link').forEach(el => {
+                        el.addEventListener('mouseenter', () => cursorOutline.classList.add('hover'));
+                        el.addEventListener('mouseleave', () => cursorOutline.classList.remove('hover'));
+                    });
+                }
+            }
+            
+            // Simple typing animation
+            const typedText = document.querySelector('.typed-text');
+            const texts = ['Research Enthusiast', 'Materials Science Engineer', 'Innovation Leader', 'Problem Solver'];
+            let textIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+            
+            function typeWriter() {
+                const currentText = texts[textIndex];
+                
+                if (isDeleting) {
+                    typedText.textContent = currentText.substring(0, charIndex - 1);
+                    charIndex--;
+                } else {
+                    typedText.textContent = currentText.substring(0, charIndex + 1);
+                    charIndex++;
+                }
+                
+                let typeSpeed = isDeleting ? 50 : 100;
+                
+                if (!isDeleting && charIndex === currentText.length) {
+                    typeSpeed = 2000;
+                    isDeleting = true;
+                } else if (isDeleting && charIndex === 0) {
+                    isDeleting = false;
+                    textIndex = (textIndex + 1) % texts.length;
+                    typeSpeed = 500;
+                }
+                
+                setTimeout(typeWriter, typeSpeed);
+            }
+            
+            typeWriter();
+            
+            // Navbar scroll effect
+            window.addEventListener('scroll', function() {
+                const navbar = document.getElementById('navbar');
+                if (window.scrollY > 50) {
+                    navbar.style.backdropFilter = 'blur(20px)';
+                    navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.15)';
+                } else {
+                    navbar.style.backdropFilter = 'blur(10px)';
+                    navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+                }
+            });
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html> 
